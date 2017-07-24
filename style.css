@@ -1,3 +1,28 @@
-.body{
-    background-color: red;
+*{
+    outline:2px solid white
+}
+
+body{
+    background: 
+    linear-gradient(
+        to top,
+        rgba(0,0,0 ,0.0),
+        rgba(0,0,0 ,0.6)
+    ),
+url("assets/mtn.jpg");
+min-height: 500px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+color:#e7e7e7;
+}
+.jumbotron{
+    background-color: rgba(0,0,0 ,0.0)
+
+}
+.experience{
+    background-color: darkblue;
+}
+.col-xs-3{
+    box-shadow: 0 4px 8px 0 rgba(1000,0,0,0.2)
 }
